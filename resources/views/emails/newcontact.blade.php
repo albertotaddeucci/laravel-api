@@ -1,0 +1,21 @@
+<h1>
+    Boolfolio - Nuova richiesta di contatto
+</h1>
+
+<p>
+    <ul>
+        <li>
+            Da: {{$lead->name}}
+        </li>
+        <li>
+            Email: {{$lead->address}}
+        </li>
+        <li>
+            Cellulare: {{$lead->phone}}
+        </li>
+        <li>
+            Messaggio: <br>
+            {{$lead->message}}
+        </li>
+    </ul>
+</p>
